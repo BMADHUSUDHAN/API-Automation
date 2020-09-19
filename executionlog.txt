@@ -1,0 +1,48 @@
+Request method:	POST
+Request URI:	http://172.16.3.40:8090/web/doPortalLogin.do/baseurl
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": null,
+    "passsword": null,
+    "category": "Tenant",
+    "tenantCode": "bot",
+    "channel": "AdminPortal",
+    "loginExchangekey": "2c9083a8740166cc017438d228e11dfa",
+    "formData": "{\\r\\n  \\\"userName\\\": \\\"frbadmin\\\",\\r\\n  \\\"password\\\": \\\"6ee1a1130dadc59987be7d7affe25750c9ba79502bfb1707549568e6e1e1dd5fd293c779ba838f0b934765b7b63feebe5325221ce56c5cd7ffc67336e03e855a3df9e31fc739c433f2c67576d0f6acca2519e92757e81d44c0b327f792a5d69e5ca9e904cb2b8737da5150ba79b41c5200767a85fd495c3e9a710acf27192265ca2674c8767410c6e6312765263e7367e810532b0471bfbdc8a3f361511b83c9a0b98084eaf9d54230bcd9c7ad71531cb544813bf03ba98bd17fc43f1c83e5dafc8cdcfa0e2484808e5b84d27a2eba6fa9fc8125517a87741d0d1b3abe275348aba74f01a707850722f4bfc2118b65b20a497f6b9ad3e83502cc80ac31926e5e\\\",\\r\\n  \\\"category\\\": \\\"Tenant\\\",\\r\\n  \\\"tenantCode\\\": \\\"bot\\\"\\r\\n}"
+}
+HTTP/1.1 404 
+Set-Cookie: JSESSIONID=8D0B15CCFFDDE42FE56AF61C2D9AA145; Path=/web; HttpOnly
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 550
+Date: Tue, 15 Sep 2020 09:24:03 GMT
+
+<html>
+  <head>
+    <title>Error</title>
+    <link href="/web/resources/css/style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div id="main_Header_wrapper_BG"/>
+    <div id="main_Bodywrapper_BG">
+      <div id="Main_Wrapper_Body_Error">
+        <h3>Sorry, an error has occurred. Possible Causes :</h3>
+        <span>1.Access denied.</span>
+        <br clear="none"/>
+        <span>2.Content not found.</span>
+        <br clear="none"/>
+        <span>3.You have been timed out due to inactivity.</span>
+        <br clear="none"/>
+        <span>4.Please login again after some time.</span>
+      </div>
+    </div>
+  </body>
+</html>
